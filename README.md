@@ -22,13 +22,20 @@ See the [goto README](https://github.com/RiceKrisBs/goto#readme) for usage.
 
 ## Other ways to install
 
-`brew tap ricekrisbs/tap` and then `brew install goto-repo`.
+Installing by the full name, as above, also trusts the formula. To install by
+its short name instead, trust it first
+([Homebrew tap trust](https://docs.brew.sh/Tap-Trust)):
+
+```sh
+brew tap ricekrisbs/tap
+brew trust --formula ricekrisbs/tap/goto-repo
+brew install goto-repo
+```
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
-tap "ricekrisbs/tap"
-brew "goto-repo"
+brew "ricekrisbs/tap/goto-repo", trusted: true
 ```
 
 ## Documentation
