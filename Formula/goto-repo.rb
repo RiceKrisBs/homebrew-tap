@@ -1,8 +1,8 @@
 class GotoRepo < Formula
   desc "Jump to any git repo under your source root by its directory name"
   homepage "https://github.com/RiceKrisBs/goto"
-  url "https://github.com/RiceKrisBs/goto/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "7c25fed4931215ba8c2d3121f3132568ff8082e4430a3694522afb1ac74cec2f"
+  url "https://github.com/RiceKrisBs/goto/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "9fa7c3f77bce23ede797a2b120dbcb8444912eed830390296761839e95065b59"
   license "MIT"
 
   bottle do
