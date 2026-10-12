@@ -6,9 +6,9 @@ class GotoRepo < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/RiceKrisBs/homebrew-tap/releases/download/goto-repo-0.4.0"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "daffdc3873a6ab7f18c01ebbf9f8a1cee63d0381aa4f44cfefb08bc1d3537379"
-    sha256 cellar: :any,                 x86_64_linux:  "c67b4e1dd41fcf65ad940317ee82c9778be3977c522806e8ed44b9819bbc6792"
+    root_url "https://github.com/RiceKrisBs/homebrew-tap/releases/download/goto-repo-0.4.1"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "b787b133ed6eea3c9cf6570cdccd2151c3da0451542f1b1b4bb8414f279bda9d"
+    sha256 cellar: :any,                 x86_64_linux:  "40bed7c5940f6fe090bf12db6ed56f46baf6309d7dfb6b6450c0ada40a1344f8"
   end
 
   depends_on "rust" => :build
